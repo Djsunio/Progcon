@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-29 08:44:56 AM"/>
+        <attribute name="created" value="UmFtcztMQUIzMDRDMjA7MjAxOS0xMC0yOTswODoyNzozNCBBTTsyMjAz"/>
+        <attribute name="edited" value="UmFtcztMQUIzMDRDMjA7MjAxOS0xMC0yOTswODo0NDo1NiBBTTszOzIzMTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <output expression="&quot;What is the first number?&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;What is the last number?&quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="num1 + num2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

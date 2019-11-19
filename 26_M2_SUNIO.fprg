@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-29 09:10:38 AM"/>
+        <attribute name="created" value="UmFtcztMQUIzMDRDMjA7MjAxOS0xMC0yOTswODo0Mjo0MCBBTTsyMTk3"/>
+        <attribute name="edited" value="UmFtcztMQUIzMDRDMjA7MjAxOS0xMC0yOTswOToxMDozOCBBTTszOzIzMTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Radius" type="Real" array="False" size=""/>
+            <declare name="Diameter" type="Real" array="False" size=""/>
+            <output expression="&quot;Determine the radius and diameter of a circle&quot;" newline="True"/>
+            <output expression="&quot;Please enter the radius&quot;" newline="True"/>
+            <input variable="Radius"/>
+            <assign variable="area" expression="pi * (radius *2)"/>
+            <if expression="Radius &gt;=0 and Diameter &lt;=50">
+                <then/>
+                <else>
+                    <input variable="diameter"/>
+                    <assign variable="ans" expression="pi * (Diameter/2)^2)"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
